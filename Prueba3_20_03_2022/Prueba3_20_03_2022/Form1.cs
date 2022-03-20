@@ -40,5 +40,5 @@ namespace Prueba3_20_03_2022
             tResultado.Text = resta.ToString();
         }
     }
-    }
+    
 }

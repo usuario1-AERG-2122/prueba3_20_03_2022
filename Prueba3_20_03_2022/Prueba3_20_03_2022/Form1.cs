@@ -39,6 +39,16 @@ namespace Prueba3_20_03_2022
 
             tResultado.Text = resta.ToString();
         }
-    }
-    
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a, b, division;
+            a = int.Parse(tNumero1.Text);
+            b = int.Parse(tNumero2.Text);
+
+            division = a / b;
+
+            tResultado.Text = division.ToString();
+        }
+    }      
 }

@@ -42,13 +42,14 @@ namespace Prueba3_20_03_2022
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int a, b, division;
+            int a, b,producto;
             a = int.Parse(tNumero1.Text);
             b = int.Parse(tNumero2.Text);
 
-            division = a / b;
+            producto = a * b;
 
-            tResultado.Text = division.ToString();
+            tResultado.Text = producto.ToString();
         }
-    }      
+    }
+    
 }

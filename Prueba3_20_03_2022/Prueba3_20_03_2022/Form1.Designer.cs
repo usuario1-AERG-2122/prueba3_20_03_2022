@@ -110,11 +110,11 @@ namespace Prueba3_20_03_2022
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(288, 189);
+            this.button3.Location = new System.Drawing.Point(283, 188);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(88, 23);
             this.button3.TabIndex = 8;
-            this.button3.Text = "Division";
+            this.button3.Text = "Multiplicacion";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
